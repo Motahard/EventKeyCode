@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 5rem 0;
+  color: #644fab;
+}
+
+.output {
+  margin: auto;
+  max-width: 900px;
+  max-height: 50vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.output-1,
+.output-2,
+.output-3 {
+  border: 2px dotted #1ba9c9;
+  padding: 3rem 0;
+  border-radius: 15px;
+}
+
+h2 {
+  background: rgb(248, 248, 248);
+  padding: 0.5rem;
+  border-radius: 15px;
+  margin-bottom: 1.5rem;
+  color: #c91b55;
+}
+
+.text {
+  font-size: 2rem;
+}
